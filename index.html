@@ -10,8 +10,14 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
+    <script
+      src="https://code.jquery.com/jquery-3.7.1.min.js"
+      integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
+    <div id="menu">Menu</div>
     <table class="table table-success table-striped">
       <thead>
         <tr>
@@ -57,29 +63,30 @@
           <td>Thornton</td>
           <td>@fat</td>
           <td>@fat</td>
-         
         </tr>
         <tr>
-            <td>movimentação</td>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>Thornton</td>
+          <td>movimentação</td>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>Thornton</td>
         </tr>
         <tr>
-            <td>movimentação</td>
-            <th scope="row">2</th>
-            <td>Jacob</td>
-            <td>Thornton</td>
-            <td>Thornton</td>
+          <td>movimentação</td>
+          <th scope="row">2</th>
+          <td>Jacob</td>
+          <td>Thornton</td>
+          <td>Thornton</td>
         </tr>
-    </tbody>
+      </tbody>
     </table>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <script lang="text/javascript">
+      $("#menu").load("./componente/menu.html");
+    </script>
   </body>
 </html>
